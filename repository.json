@@ -1,5 +1,8 @@
 {
-  "name": "Hass.IO example add-on repository",
-  "url": "https://home-assistant.io/",
-  "maintainer": "HomeAssistant <info@home-assistant.io>"
+  "name": "Home Assitant RaspberryMatic repository",
+  "url": "https://github.com/jens-maus/RaspberryMatic/",
+  "maintainer": [
+    "Jens Maus <mail@jens-maus.de>",
+    "Angel Nunez Mencias <mail@angelnu.com>"
+  ]
 }

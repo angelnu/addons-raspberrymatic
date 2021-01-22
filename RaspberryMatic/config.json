@@ -1,0 +1,19 @@
+{
+  "name": "RaspberryMatic",
+  "version": "snapshot",
+  "slug": "raspberrymatic",
+  "image": "ghcr.io/jens-maus/raspberrymatic",
+  "arch": ["armhf", "aarch64", "amd64"],
+  "description": "Alternative OS for your HomeMatic CCU",
+  "url": "https://github.com/jens-maus/RaspberryMatic/",
+  "webui": "http://[HOST]:[PORT:8080]",
+  "startup": "services",
+  "boot": "auto",
+  "init": false,
+  "ports": {
+    "22/tcp": 22,
+    "80/tcp": 8080,
+    "443/tcp": 8443
+  },
+  "full_access": true
+}
